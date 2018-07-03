@@ -1,0 +1,55 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+}
+
+.gallery {
+    margin: 15px;
+    margin-top: 60px;
+    background-color: white;
+    border: 3px solid #ccc;
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 95%;
+}
+
+
+/* button Back */
+
+a.button2 {
+    display: block;
+    padding: 0.5em 3em;
+    border: 0.16em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.15s;
+}
+
+a.button2:hover {
+    color: #DDDDDD;
+    border-color: #DDDDDD;
+}
+
+a.button2:active {
+    color: #BBBBBB;
+    border-color: #BBBBBB;
+}
+
+@media all and (max-width:30em) {
+    a.button2 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
